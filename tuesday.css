@@ -1,0 +1,120 @@
+body {
+  margin: auto;
+  max-width: 960px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+}
+
+h2 {
+  color: rgb(164, 13, 202);
+  font-size: 6rem;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: 50;
+  text-shadow: 0px 1px #f1e3e3;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  border: solid 1px rgb(43, 38, 3);
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(38, 9, 77);
+  border-spacing: 25px;
+}
+
+li {
+  text-align: left;
+  color: rgb(222, 171, 201);
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+/* CSS Classes boooya */
+
+.fav-bands {
+  text-shadow: 1px 1px rgb(238, 227, 227);
+}
+
+/* CSS Classes boooya 
+
+.li-itms-bgrnd {
+  background-color: rgb(37, 5, 66);
+}
+
+.band-li {
+    .background-color:rgb(171, 9, 106);
+  }
+
+  */
+
+/* CSS ID 
+
+  #queen {
+    background-color: rgb(4, 35, 36) 
+  }
+    
+    */
+
+#header-container {
+  background-color: rgb(253, 255, 232);
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#list-container {
+  background-color: rgb(191, 195, 149);
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#links-container {
+  background-color: rgb(253, 255, 232);
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.topnav a {
+  color: rgb(177, 71, 177);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(216, 195, 214);
+  color: black;
+  font-size: 19px;
+}
+
+.topnav a.active {
+  background-color: rgb(177, 71, 177);
+  color: white;
+}

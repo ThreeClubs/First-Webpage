@@ -1,0 +1,64 @@
+body {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+
+h1 {
+  font-size: 90px;
+}
+
+p {
+  margin: 35px0px;
+  color: brown;
+  font-size: 25px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  font-family: "Tahoma";
+}
+
+#main-hdg {
+    color: purple;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+ol {
+  display: table;
+  margin: 0 auto;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.topnav a {
+  color: rgb(177, 71, 177);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(216, 195, 214);
+  color: black;
+  font-size: 19px;
+}
+
+.topnav a.active {
+   background-color: rgb(177, 71, 177);
+  color: white;
+}
